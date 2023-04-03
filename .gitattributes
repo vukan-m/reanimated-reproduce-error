@@ -50,6 +50,7 @@ buck-out/
 # Ruby / CocoaPods
 /ios/Pods/
 /vendor/bundle/
+hermes filter=lfs diff=lfs merge=lfs -text
 /packages/RNApp/ios/Pods/CocoaAsyncSocket/Source/GCD/GCDAsyncSocket.m filter=lfs diff=lfs merge=lfs -text
 /packages/RNApp/ios/Pods/CocoaAsyncSocket/Source/GCD/GCDAsyncUdpSocket.m filter=lfs diff=lfs merge=lfs -text
 /packages/RNApp/ios/Pods/Flipper-Boost-iOSX/boost/asio/detail/impl/socket_ops.ipp filter=lfs diff=lfs merge=lfs -text

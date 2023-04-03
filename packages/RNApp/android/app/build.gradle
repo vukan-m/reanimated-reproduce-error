@@ -84,7 +84,7 @@ project.ext.react = [
     cliPath: "../../../../node_modules/react-native/local-cli/cli.js",
     nodeModulesPath: "../../../../node_modules",
     composeSourceMapsPath: "../../../../node_modules/react-native/scripts/compose-source-maps.js",
-    entryFile   : "packagees/RNApp/index.js",
+    entryFile   : "packages/RNApp/index.js",
 ]
 
 apply from: "../../../../node_modules/react-native/react.gradle"

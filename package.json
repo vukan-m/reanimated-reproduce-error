@@ -1,0 +1,45 @@
+{
+  "name": "yarn-monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "yarn workspace RNApp start",
+    "android": "yarn workspace RNApp android",
+    "ios": "yarn workspace RNApp ios"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.9",
+    "@babel/runtime": "7.12.5",
+    "@babel/plugin-proposal-class-properties": "7.18.6",
+    "@babel/plugin-proposal-function-bind": "7.18.9",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "7.18.9",
+    "@babel/plugin-transform-arrow-functions": "7.18.6",
+    "@babel/plugin-transform-flow-strip-types": "7.19.0",
+    "@babel/plugin-transform-modules-commonjs": "7.19.6",
+    "@babel/plugin-transform-shorthand-properties": "7.18.6",
+    "babel-plugin-transform-remove-console": "6.9.4",
+    "@babel/plugin-transform-template-literals": "7.18.9",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.32.0",
+    "jest": "26.6.3",
+    "metro-config": "0.73.3",
+    "metro-react-native-babel-preset": "0.73.3",
+    "metro-react-native-babel-transformer": "0.73.3",
+    "react-test-renderer": "18.1.0",
+    "@typescript-eslint/parser":"5.57.0",
+    "@typescript-eslint/eslint-plugin": "5.57.0",
+    "typescript":"5.0.3",
+    "eslint-config-airbnb-typescript": "17.0.0",
+    "eslint-config-airbnb-typescript-prettier": "5.0.0",
+    "eslint-plugin-prettier": "4.2.1"
+  }
+}
